@@ -1,0 +1,33 @@
+/* index.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f5f7fa;
+  color: #333;
+}
+
+/* Code Styling */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background: #eee;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+/* Container */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Quill Editor (if used) */
+.ql-editor {
+  min-height: 100%;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
